@@ -21,6 +21,7 @@
     "@leather-wallet/eslint-config": "workspace:^",
     "@leather-wallet/prettier-config": "workspace:^",
     "@leather-wallet/tsconfig-config": "workspace:^",
+    "@nx/js": "^17.1.3",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^11.1.0",
     "@semantic-release/exec": "^6.0.3",
