@@ -21,8 +21,16 @@
     "@leather-wallet/eslint-config": "workspace:^",
     "@leather-wallet/prettier-config": "workspace:^",
     "@leather-wallet/tsconfig-config": "workspace:^",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/release-notes-generator": "^12.1.0",
+    "conventional-changelog-conventionalcommits": "^7.0.2",
     "husky": "^8.0.3",
-    "nx": "^17.1.1"
+    "nx": "^17.1.1",
+    "nx-release": "^3.1.6",
+    "replace-json-property": "^1.9.0"
   },
   "engines": {
     "node": ">=20.3.0",
