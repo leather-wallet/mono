@@ -28,10 +28,13 @@
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/release-notes-generator": "^12.1.0",
     "conventional-changelog-conventionalcommits": "^7.0.2",
+    "eslint": "^8.54.0",
     "husky": "^8.0.3",
     "nx": "^17.1.1",
     "nx-release": "^3.1.6",
-    "replace-json-property": "^1.9.0"
+    "prettier": "^3.1.0",
+    "replace-json-property": "^1.9.0",
+    "typescript": "^5.3.2"
   },
   "engines": {
     "node": ">=20.3.0",
