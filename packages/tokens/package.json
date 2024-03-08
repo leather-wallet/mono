@@ -1,10 +1,13 @@
 {
   "name": "@leather-wallet/tokens",
   "description": "Shared design tokens",
-  "version": "0.0.10",
+  "version": "0.0.13",
   "author": "Leather.io contact@leather.io",
   "scripts": {
-    "typecheck": "tsc --noEmit -p ./tsconfig.json"
+    "ts:build": "tsc",
+    "typecheck": "tsc --noEmit -p ./tsconfig.json",
+    "prepublish": "pnpm ts:build",
+    "lint": "eslint ."
   },
   "bugs": "https://github.com/leather-wallet/mono/issues",
   "devDependencies": {
@@ -19,8 +22,13 @@
     "leather wallet",
     "tokens"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "license": "MIT",
-  "main": "src/index.ts",
   "publishConfig": {
     "access": "public"
   },
