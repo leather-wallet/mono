@@ -4,7 +4,6 @@
   "version": "0.0.1",
   "type": "module",
   "author": "Leather.io contact@leather.io",
-  "type": "module",
   "scripts": {
     "format": "prettier . --write",
     "lint": "eslint .",
