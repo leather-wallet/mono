@@ -12,7 +12,7 @@ export default ({ config }) => ({
   userInterfaceStyle: 'automatic',
   splash: {
     image: './src/assets/splash.png',
-    resizeMode: 'contain',
+    resizeMode: 'cover',
     backgroundColor: '#ffffff',
   },
   updates: {
