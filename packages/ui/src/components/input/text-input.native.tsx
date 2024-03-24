@@ -1,7 +1,6 @@
 import { ComponentPropsWithoutRef } from 'react';
 import { TextInput as RNTextInput } from 'react-native';
 
-import { Theme } from '@leather-wallet/ui/native';
 import {
   BackgroundColorProps,
   BackgroundColorShorthandProps,
@@ -30,6 +29,8 @@ import {
   typography,
   visible,
 } from '@shopify/restyle';
+
+import { Theme } from '../../theme-native';
 
 type BaseButtonProps<Theme extends BaseTheme> = ComponentPropsWithoutRef<typeof RNTextInput> &
   VariantProps<Theme, 'textVariants', 'textVariant'> &
